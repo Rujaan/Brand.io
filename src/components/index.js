@@ -1,0 +1,7 @@
+export {default as Brand} from './brand/Brand'
+export {default as CTA} from './CTA/CTA'
+export {default as Navbar} from './navbar/Navbar'
+export {default as Projects} from './projects/Projects'
+export {default as Steps} from './steps/Steps'
+export {default as Testimonial} from './testimonial/Testimonial'
+export {default as Customer} from './customer/Customer'

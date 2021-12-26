@@ -1,0 +1,38 @@
+.brandio__work-description .brandio__steps-container:nth-child(2) .brandio__steps{
+    flex-direction: row-reverse;
+}
+
+.brandio__work-description .brandio__steps-container:nth-child(2) .brandio__steps .brandio__steps-image img{
+    margin: 0;
+}
+
+.brandio__work-heading h1{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #313131;
+}
+
+.brandio__work-heading-paragraph p{
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #425466;
+}
+
+.brandio__work-heading-paragraph{
+    margin: 1rem ;
+}
+
+.brandio__work-heading{
+    margin: 4rem 0 6rem;
+}
+
+@media screen and (max-width:490px) {
+    .brandio__work-description .brandio__steps-container:nth-child(2) .brandio__steps{
+        flex-direction: column;
+    }
+}

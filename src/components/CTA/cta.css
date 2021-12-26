@@ -1,0 +1,171 @@
+.brandio__cta h1{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #313131;
+    margin-top: 1rem;
+}
+
+.brandio__cta p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #425466;
+    margin-top: 1.5rem;
+    padding: 0 13rem;
+}
+
+.brandio__cta{
+    background: #F1F1F1;
+    padding: 4rem;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.brandio__cta img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 376px;
+}
+
+.brandio__cta img:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 300px;
+    left: auto;
+}
+
+.brandio__cta-sign{
+    display: flex;
+    margin: 3rem 0 4rem 0;
+    box-shadow: 0px 100px 80px rgba(56, 56, 56, 0.1), 0px 64.8148px 46.8519px rgba(56, 56, 56, 0.0759259), 0px 38.5185px 25.4815px rgba(56, 56, 56, 0.0607407), 0px 20px 13px rgba(56, 56, 56, 0.05), 0px 8.14815px 6.51852px rgba(56, 56, 56, 0.0392593), 0px 1.85185px 3.14815px rgba(56, 56, 56, 0.0240741);
+}
+
+.brandio__cta-sign input,
+.brandio__cta-sign button{
+    min-height: 45px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.brandio__cta-sign input{
+    font-style: normal;
+    color: #A5A5A5;
+    padding: 0.5rem 1rem;
+    padding-right: 4rem;
+    border: none;
+    outline: none;
+}
+
+.brandio__cta-sign button{
+    background: #0AC05E;
+    color: #FFFFFF;
+    border: none;
+    padding: 1rem 1.5rem;
+}
+
+@media screen and (max-width:1024px) {
+    .brandio__cta img{
+        max-width: 276px;
+    }
+    
+    .brandio__cta img:nth-child(2){
+        max-width: 200px;
+    }
+
+    .brandio__cta p {
+        font-size: 16px;
+    }
+
+    .brandio__cta {
+        padding: 2rem;
+    }
+    
+}
+
+@media screen and (max-width:850px) {
+    .brandio__cta-sign{
+        margin: 2rem 0;
+    }
+    .brandio__cta img{
+        max-width: 226px;
+    }
+    
+    .brandio__cta img:nth-child(2){
+        max-width: 150px;
+    }
+
+    .brandio__cta p{
+        padding: 0 5rem;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    .brandio__cta img{
+        max-width: 190px;
+    }
+    
+    .brandio__cta img:nth-child(2){
+        max-width: 100px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .brandio__cta p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .brandio__cta h1{
+        font-size: 30px;
+    }
+
+    .brandio__cta{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:450px){
+    .brandio__cta-sign input,
+    .brandio__cta-sign button{
+        min-height: 25px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .brandio__cta-sign input{
+        padding: 0.2rem 0.5rem;
+        padding-right: 3rem;
+        padding-left: 1rem;
+    }
+    
+    .brandio__cta-sign button{
+        background: #0AC05E;
+        color: #FFFFFF;
+        border: none;
+        padding: 1rem 1.5rem;
+    }
+
+    .brandio__cta p {
+        padding: 0 2rem;
+    }
+
+    .brandio__cta-sign{
+        margin: 2rem 10rem;
+    }
+
+}

@@ -1,0 +1,28 @@
+.brandio_brands{
+    background-color: var(--background-secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 4rem;
+    flex-wrap: wrap;
+}
+
+.brandio_brands div img{
+    width: 100%;
+}
+
+.brandio_brands div{
+    flex: 1;
+    margin: 1rem;
+    min-width: 120px;
+    max-width: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+@media screen and (max-width:721px){
+    .brandio_brands{
+        justify-content: center;
+    }
+}

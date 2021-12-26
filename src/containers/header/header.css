@@ -1,0 +1,203 @@
+.brandio__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brandio__header-story{
+    flex: 1;
+    justify-content: fl;
+    align-items: flex-start;
+}
+
+.brandio__header-story h1{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 94px;
+    line-height: 100%;
+    color: var(--color-primary);
+}
+
+.brandio__header-story p{
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-secondary);
+    margin-top: 2.5rem;
+}
+
+.brandio__header-story_sign{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.brandio__header-story_sign p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: var(--color-accent);
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.brandio__header-story_sign button {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--background-primary);
+    margin-top: 0;
+    box-shadow: 0px 100px 80px rgba(56, 56, 56, 0.1), 0px 64.8148px 46.8519px rgba(56, 56, 56, 0.0759259), 0px 38.5185px 25.4815px rgba(56, 56, 56, 0.0607407), 0px 20px 13px rgba(56, 56, 56, 0.05), 0px 8.14815px 6.51852px rgba(56, 56, 56, 0.0392593), 0px 1.85185px 3.14815px rgba(56, 56, 56, 0.0240741);
+    background-color: var(--color-accent);
+    padding: 1rem 2rem;
+    border: none;
+    margin-right: 1rem;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.brandio__header-image {
+    flex: 1;
+    position: relative;
+}
+
+.brandio__header-image img:first-child{
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.brandio__header-image img:nth-child(2){
+    position: absolute;
+    top: 10rem;
+    left: 0;
+}
+
+.brandio__header-image img:nth-child(3){
+    position: absolute;
+    top: 18rem;
+    right: 0.1rem;
+}
+
+.brandio__header-image img:nth-child(4){
+    position: absolute;
+    bottom: 7rem;
+    right: 0.1rem;
+}
+
+.brandio__header-image img:nth-child(5){
+    position: absolute;
+    bottom: 16rem;
+    left: 1.5rem;
+}
+
+.brandio__header-image img:nth-child(6){
+    position: absolute;
+    bottom: 8rem;
+    left: -0.1rem;
+}
+
+@media screen and (max-width: 1430px){
+    .brandio__header-image img:nth-child(2){
+        display: none;
+    }
+    
+    .brandio__header-image img:nth-child(3){
+        display: none;
+    }
+    
+    .brandio__header-image img:nth-child(4){
+        display: none;
+    }
+    
+    .brandio__header-image img:nth-child(5){
+        display: none;
+    }
+    
+    .brandio__header-image img:nth-child(6){
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .brandio__header-story h1{
+        font-size: 74px;
+        line-height: 100%;
+    }
+    
+    .brandio__header-story p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .brandio__header-story_sign p,
+    .brandio__header-story_sign button{
+        font-size: 14px;
+    }
+
+    .brandio__header-story_sign button{
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .brandio__header{
+        flex-direction: column-reverse;
+    }
+
+    .brandio__header-story{
+        margin-top: 5rem;
+    }
+
+    .brandio__header-story h1{
+        font-size: 68px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .brandio__header-story_sign{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .brandio__header-story h1{
+        font-size: 48px;
+    }
+
+    .brandio__header-story_sign{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .brandio__header-story h1{
+        font-size: 38px;
+    }
+
+    .brandio__header-story p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .brandio__header-story_sign{
+        flex-direction: column;
+    }
+
+    .brandio__header-story_sign button{
+        margin-right: 0;
+    }
+
+    .brandio__header-story_sign p{
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,27 @@
+.brandio__grow-header h1{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #313131;
+}
+
+.brandio__grow-header{
+    padding: 4rem 2rem;
+}
+
+.brandio__grow-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:420px){
+    .brandio__grow-header{
+        padding: 2rem 1rem;
+    }
+    .brandio__grow-header h1{
+        font-size: 32px;
+    }
+}

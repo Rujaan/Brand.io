@@ -1,0 +1,188 @@
+.brandio_navbar_decorator{
+    position: absolute;
+    top: 0;
+}
+
+.brandio_navbar_decorator img{
+    width: 376px;
+    height: 235px;
+}
+
+.brandio__navbar-links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 3rem 9rem;
+    position: relative;
+}
+
+.brandio__navbar-links_logo{
+    flex: 0.2;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: -0.06em;
+
+    color: #313131;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.brandio__navbar-links_container{
+    flex: 1;
+    display: flex;
+    
+}
+
+.brandio__navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-primary);
+    padding: 2rem;
+    position: absolute;
+    top: -80px;
+    right: 0;
+
+    color: var(--background-primary);
+    font-family: var(--font-family);
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+.brandio__navbar-menu_container_links button{
+    font-family: var(--font-family);
+    color: var(--color-primary);
+    background: var(--color-accent);
+    font-size: medium;
+    padding: 0.4rem 2rem;
+    border: none;
+    transition: color 0.5s;
+    box-shadow: 0px 100px 80px rgba(56, 56, 56, 0.1), 0px 64.8148px 46.8519px rgba(56, 56, 56, 0.0759259), 0px 38.5185px 25.4815px rgba(56, 56, 56, 0.0607407), 0px 20px 13px rgba(56, 56, 56, 0.05), 0px 8.14815px 6.51852px rgba(56, 56, 56, 0.0392593), 0px 1.85185px 3.14815px rgba(56, 56, 56, 0.0240741);
+
+}
+
+.brandio__navbar-menu_container_links p{
+    margin: 1rem 0;
+}
+
+.brandio__navbar-menu{
+    display: none;
+}
+
+.brandio__navbar-links_container p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--color-primary);
+    margin: 0 1.5rem;
+}
+
+.brandio__navbar-links_sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.brandio__navbar-links_sign p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--color-primary);
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.brandio__navbar-links_sign button {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 27px;
+    color: #FAFAFA;
+    background: var(--color-accent);
+    padding: 0.4rem 2rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 100px 80px rgba(56, 56, 56, 0.1), 0px 64.8148px 46.8519px rgba(56, 56, 56, 0.0759259), 0px 38.5185px 25.4815px rgba(56, 56, 56, 0.0607407), 0px 20px 13px rgba(56, 56, 56, 0.05), 0px 8.14815px 6.51852px rgba(56, 56, 56, 0.0392593), 0px 1.85185px 3.14815px rgba(56, 56, 56, 0.0240741);
+}
+
+.brandio__navbar-menu{
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (max-width: 1050px){
+    .brandio__navbar-links_container{
+        display: none;
+    }
+
+    .brandio__navbar-menu_container{
+        display: flex;
+    }
+
+    .brandio__navbar-links_sign{
+        display: none;
+    }
+
+    .brandio__navbar-menu
+    {
+        display: flex;
+    }
+
+    .brandio_navbar_decorator img {
+        width: 339px;
+        height: 167px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .brandio__navbar-links{
+        margin: 1rem 2rem;
+    }
+
+    .brandio__navbar-links_logo{
+        font-size: 19px;
+        line-height: 31px;
+    }
+
+    .brandio__navbar-menu_container_links p {
+        font-size: 10px;
+        margin: 0.5rem 0;
+    }
+
+    .brandio__navbar-menu_container_links button {
+        font-size: 10px;
+        margin: 0.5rem 0;
+    }
+
+    .brandio_navbar_decorator img{
+        width: 276px;
+        height: 135px;
+    }
+    
+}
+
+@media screen and (max-width: 550px){
+    .brandio__navbar-links{
+        padding: 1rem ;
+    }
+
+    .brandio__navbar-menu_container{
+        top: -60px;
+    }
+
+    .brandio_navbar_decorator img{
+        width: 155px;
+        height: 70px;
+    }
+}
+
