@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Getting Started with Brand.io
+Welcome to Brand.io . An imperfect but continiously updated webpage, Also, my first React App to be published on Github.
 
 ## Available Scripts
 
@@ -41,9 +40,11 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Credits
 
-Credits to https://www.arshakir.com/ for the design
+Credits to [Ar Shakir](https://www.arshakir.com/) for the design.
 
-Credits to https://www.github.com/Rujaan for completing the project in 2 1/2 days with lots of procastinations :')
+Credits to [Create React App](https://github.com/facebook/create-react-app) with which, the app was Bootstrapped.
+
+Credits to [Myself](https://www.github.com/Rujaan) for completing the project in 2 1/2 days with lots of procastinations :').
 
 ## To do
 
