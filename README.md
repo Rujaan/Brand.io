@@ -43,7 +43,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 Credits to https://www.arshakir.com/ for the design
 
-Credits to https"//www.github.com/Rujaan for completing the project in 2 1/2 days with lots of procastinations :')
+Credits to https://www.github.com/Rujaan for completing the project in 2 1/2 days with lots of procastinations :')
 
 ## To do
 
